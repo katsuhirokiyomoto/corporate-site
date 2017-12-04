@@ -458,8 +458,8 @@ h1{
   background-size: cover;
   color: #222;
   display: block;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-right: 0px;
   padding-left: 0px;
   
@@ -470,16 +470,26 @@ h1{
   
   
   .container{
-    h2{
-      color: white;
-      font-size: 3.2rem;
-      font-weight: bold;
-      letter-spacing: 0.2rem;
-      line-height: 1.25;
-      margin: 0px;
-      text-align: center;
-  }
-    
+   .row{
+     .twelve.columns{
+           width: 100%;
+           float: left;
+           box-sizing: border-box;
+       
+       h2{
+         color: white;
+         font-size: 1.6rem;
+         font-weight: bold;
+         letter-spacing: 0.2rem;
+         line-height: 1.25;
+         margin: 0px;
+         text-align: center;
+         }
+           /* h2 ここまで */
+     }
+     /* twelve columns ここまで */
+    }
+    /* row ここまで */
   }
  /* container ここまで */
   

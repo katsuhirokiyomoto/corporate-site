@@ -256,22 +256,31 @@ h1 {
   background-size: cover;
   color: #222;
   display: block;
-  padding-top: 80px;
-  padding-bottom: 80px;
+  padding-top: 40px;
+  padding-bottom: 40px;
   padding-right: 0px;
   padding-left: 0px;
   /* container ここまで */ }
   @media screen and (-webkit-min-device-pixel-ratio: 2), (min-resolution: 2dppx) {
     #sub_cover {
       background-image: url(../images/news/sub_cover@2x.jpg); } }
-  #sub_cover .container h2 {
-    color: white;
-    font-size: 3.2rem;
-    font-weight: bold;
-    letter-spacing: 0.2rem;
-    line-height: 1.25;
-    margin: 0px;
-    text-align: center; }
+  #sub_cover .container {
+    /* row ここまで */ }
+    #sub_cover .container .row {
+      /* twelve columns ここまで */ }
+      #sub_cover .container .row .twelve.columns {
+        width: 100%;
+        float: left;
+        box-sizing: border-box;
+        /* h2 ここまで */ }
+        #sub_cover .container .row .twelve.columns h2 {
+          color: white;
+          font-size: 1.6rem;
+          font-weight: bold;
+          letter-spacing: 0.2rem;
+          line-height: 1.25;
+          margin: 0px;
+          text-align: center; }
 
 /* sub_cover ここまで */
 @media (min-width: 550px) {
